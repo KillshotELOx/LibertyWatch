@@ -18,11 +18,12 @@
     "baseUrl": "."
   },
   "include": [
-    "*.tsx",
-    "*.ts",
-    "components/**/*.tsx",
-    "pages/**/*.tsx",
-    "vite.config.ts"
-    ],
+    "./index.tsx",
+    "./App.tsx",
+    "./constants.ts",
+    "./types.ts",
+    "./components/**/*.tsx",
+    "./pages/**/*.tsx"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
