@@ -1,50 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LibertyWatch</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'liberty-blue': {
-              DEFAULT: '#0A3A60', // Deep Blue
-              light: '#1E5F8A',
-              dark: '#062842',
-            },
-            'justice-gray': {
-              DEFAULT: '#4A5568', // Medium Gray
-              light: '#718096',
-              dark: '#2D3748',
-            },
-            'accent-gold': '#B8860B', // Dark Goldenrod
-            'background-light': '#F7FAFC', // Very Light Gray
-            'text-primary': '#1A202C', // Almost Black
-            'text-secondary': '#4A5568',
-          }
-        }
-      }
-    }
-  </script>
-<script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.1.0/",
-    "react": "https://esm.sh/react@^19.1.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.1",
-    "recharts": "https://esm.sh/recharts@^2.15.3"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="src/index.css" />
 </head>
-<body class="bg-background-light">
+<body>
   <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
 </body>
 </html>
