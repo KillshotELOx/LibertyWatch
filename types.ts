@@ -1,4 +1,3 @@
-
 import { AmendmentKey } from './constants';
 
 export interface IncidentReport {
@@ -30,3 +29,6 @@ export interface NavLinkItem {
   path: string;
   icon?: React.ReactNode;
 }
+
+// Re-export AmendmentKey
+export type { AmendmentKey };
