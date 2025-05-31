@@ -1,12 +1,11 @@
-
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Header from 'components/Header';
-import Footer from 'components/Footer';
-import HomePage from 'pages/HomePage';
-import ReportIncidentPage from 'pages/ReportIncidentPage';
-import DashboardPage from 'pages/DashboardPage';
-import KnowYourRightsPage from 'pages/KnowYourRightsPage';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import HomePage from '@/pages/HomePage';
+import ReportIncidentPage from '@/pages/ReportIncidentPage';
+import DashboardPage from '@/pages/DashboardPage';
+import KnowYourRightsPage from '@/pages/KnowYourRightsPage';
 
 const App: React.FC = () => {
   return (
